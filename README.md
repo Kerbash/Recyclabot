@@ -7,7 +7,7 @@ Recyclabot is (currently) a website that can be used to help with sorting throug
 
 ## How to use
 - Python needs to be installed
-- Navigate to the main.py directory
+- Navigate to the main.py directory with your terminal
 - Execute `pip -r requirements.txt`
 - Run `main.py`
 - Connnect to `localhost:8080`
