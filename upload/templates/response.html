@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <title>Recyclabot</title>
+
+    <style>
+        eye::before {
+            content: "█         █";
+            animation: blink infinite 6s;
+        }
+
+        @keyframes blink {
+            0%, 20% {
+                content: "█         █";
+            }
+            10% {
+                content: "-         -";
+            }
+        }
+
+        mouth::before {
+            content: "▄▄▄▄▄▄▄▄▄▄";
+            animation: animate 5s;
+        }
+
+        @keyframes animate {
+            0% {
+                content: "";
+            }
+
+            50% {
+                content: "▄▄▄";
+            }
+
+            75% {
+                content: "▄▄▄▄▄▄▄▄";
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color:#161716;"><pre>
+    <div style="text-align: center; color: orange">
+
+        <h2>
+              ___ ___ _____   _____ _      _   ___  ___ _____
+              | _ \ __/ __\ \ / / __| |    /_\ | _ )/ _ \_   _|
+            |   / _| (__ \ V / (__| |__ / _ \| _ \ (_) || |
+            |_|_\___\___| |_| \___|____/_/ \_\___/\___/ |_|
+            ===================================================
+            Home of the magical recycling AI
+
+
+            <eye></eye>
+
+            <mouth> </mouth>
+
+             ___________________/\____________
+            /                                 \
+            |  Thanks for recycling! By the   |
+            |  looks of your pictures, you    |
+            |  recycled...                    |
+            {{ITEM}}
+            |                                 |
+            |  From my sensors you are in     |
+            {{LOCATION}}
+            |                                 |
+            |  Am I right?                    |
+            \____________________________ ____/
+
+
+            +-----------------------+-----------------------+-----------------------+
+            |                       |                       |                       |
+            |    <a href = "/incorrect">No your wrong!</a>     |  <a href="/">Submit more photos</a>   |   <a href="/map">Check global stats</a>  |
+            |                       |                       |                       |
+            +-----------------------+-----------------------+-----------------------+
+        </h2>
+    </div>
+</pre></body>

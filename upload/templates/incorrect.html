@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <title>Recyclabot</title>
+
+    <style>
+        eye::before {
+            content: "X         X";
+            animation: blink infinite 6s;
+        }
+
+        @keyframes blink {
+            0%, 20% {
+                content: "X         X";
+            }
+            10% {
+                content: "-         -";
+            }
+        }
+
+        mouth::before {
+            content: "▄▄▄▄▄▄▄▄▄▄";
+            animation: animate 5s;
+        }
+
+        @keyframes animate {
+            0% {
+                content: "";
+            }
+
+            50% {
+                content: "▄▄▄";
+            }
+
+            75% {
+                content: "▄▄▄▄▄▄▄▄";
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color:#161716;"><pre>
+    <div style="text-align: center; color: orange">
+
+        <h2>
+              ___ ___ _____   _____ _      _   ___  ___ _____
+              | _ \ __/ __\ \ / / __| |    /_\ | _ )/ _ \_   _|
+            |   / _| (__ \ V / (__| |__ / _ \| _ \ (_) || |
+            |_|_\___\___| |_| \___|____/_/ \_\___/\___/ |_|
+            ===================================================
+            Home of the magical recycling AI
+
+
+            <eye></eye>
+
+            <mouth> </mouth>
+
+             ___________________/\____________
+            /                                 \
+            |  Darn! Sorry about that! Im a   |
+            |  bit new at my job. I have only |
+            |  been alive for                 |
+            {{AGE}}
+            |  Can you tell me what it        |
+            |  actually is So I can do better|
+            |  next time.                     |
+            \____________________________ ____/
+
+
+            +-----------------------+-----------------------+-----------------------+
+            |                       |                       |                       |
+            |    <a href = "/">None Recyclable</a>    |        <a href="/">compost</a>        |       <a href="/">cardboard</a>       |
+            |                       |                       |                       |
+            +-----------------------+-----------------------+-----------------------+
+            |                       |                       |                       |
+            |         <a href = "/">metal</a>         |         <a href="/">paper</a>         |     <a href="/">plastic bottle</a>    |
+            |                       |                       |                       |
+            +-----------------------+-----------------------+-----------------------+
+        </h2>
+    </div>
+</pre></body>
